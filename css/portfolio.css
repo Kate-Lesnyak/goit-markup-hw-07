@@ -137,7 +137,7 @@ b {
   color: var(--accent-color);
 }
 
-.logo--white-color {
+.logo-color-white {
   color: var(--primary-white-color);
 }
 
@@ -255,11 +255,11 @@ b {
   fill: currentColor;
 }
 
-.menu-site-nav__link--current {
+.menu-site-nav__link-current {
   position: relative;
   color: var(--accent-color);
 }
-.menu-site-nav__link--current::after {
+.menu-site-nav__link-current::after {
   display: inline-block;
   position: absolute;
   content: "";
@@ -313,12 +313,12 @@ b {
   color: var(--accent-color);
 }
 
-.social-list__link--color-white {
+.social-list__link-color-white {
   color: var(--primary-white-color);
   background-color: var(--icon-social-background-color);
   transition-property: background-color;
 }
-.social-list__link--color-white:hover, .social-list__link--color-white:focus {
+.social-list__link-color-white:hover, .social-list__link-color-white:focus {
   background-color: var(--accent-color);
 }
 
@@ -365,7 +365,7 @@ b {
   box-shadow: var(--primary-button-shadow);
 }
 
-.button--portfolio {
+.button-portfolio {
   font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.03em;
@@ -375,7 +375,7 @@ b {
   background-color: var(--secondary-background-color);
   transition-property: color, background-color, box-shadow;
 }
-.button--portfolio:hover, .button--portfolio:focus {
+.button-portfolio:hover, .button-portfolio:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: var(--portfolio-button-shadow);
