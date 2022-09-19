@@ -1,0 +1,35 @@
+.functions-section {
+	padding-top: 0;
+}
+
+.functions-section__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.functions-section__item {
+	width: calc((100% - 60px) / 3);
+
+	&+& {
+		margin-left: 30px;
+	}
+}
+
+.functions-section__thumb {
+	position: relative;
+}
+
+.functions-section__description {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 27px 0;
+	color: var(--primary-white-color);
+	background-color: var(--lable-background-color);
+
+	font-size: 14px;
+	line-height: 1.17;
+	text-align: center;
+	text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+.logo {
+	@include font(26px, 700, 31px);
+	color: var(--title-text-color);
+	font-family: Raleway, sans-serif;
+	text-decoration: none;
+	padding-top: 24px;
+	padding-bottom: 25px;
+	transition-property: color;
+	transition: color var(--transition-duration-function);
+
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.logo__accent {
+	color: var(--accent-color);
+}
+
+.logo--white-color {
+	color: var(--primary-white-color);
+}

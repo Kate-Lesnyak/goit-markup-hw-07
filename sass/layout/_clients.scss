@@ -1,0 +1,32 @@
+.clients-section__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.clients-section__item {
+	width: calc((100% - 150px) / 6);
+
+	&+& {
+		margin-left: 30px;
+	}
+}
+
+.clients-section__link {
+	@extend %align;
+	height: 92px;
+	color: var(--icon-social-color);
+	border: 1px solid var(--icon-social-color);
+	border-radius: 4px;
+	transition-property: color, border-color;
+	transition: color var(--transition-duration-function), border-color var(--transition-duration-function);
+
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+		border-color: var(--accent-color);
+	}
+}
+
+.clients-section__logo {
+	fill: currentColor;
+}

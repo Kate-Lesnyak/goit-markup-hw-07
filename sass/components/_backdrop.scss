@@ -1,0 +1,24 @@
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	background-color: var(--overlay-background-color);
+	opacity: 1;
+	transition-property: opacity;
+	transition: opacity var(--transition-duration-function);
+}
+
+.backdrop.is-hidden {
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+
+	.modal {
+		transform: translate(-50%, -50%) scale(1.1);
+		opacity: 0;
+	}
+}
+

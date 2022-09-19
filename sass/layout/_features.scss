@@ -1,0 +1,30 @@
+.features-section__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.features-section__item {
+	width: calc((100% - 90px) / 4);
+
+	&+& {
+	margin-left: 30px;
+	}
+}
+
+.features-section__icon {
+	@extend %align;
+	height: 120px;
+	margin-bottom: 30px;
+	background-color: var(--secondary-background-color);
+	border-radius: 4px;
+}
+
+.features-section__title {
+	margin-bottom: 10px;
+	color: var(--title-text-color);
+	text-transform: uppercase;
+}
+
+.features-section__text {
+	margin-bottom: 0;
+}
