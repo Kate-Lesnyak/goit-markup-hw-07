@@ -137,7 +137,7 @@ b {
   color: var(--accent-color);
 }
 
-.logo-color-white {
+.logo_color_white {
   color: var(--primary-white-color);
 }
 
@@ -331,7 +331,7 @@ b {
   border-color: var(--accent-color);
 }
 
-.modal-form__field-message {
+.modal-form__field_message {
   margin-bottom: 20px;
 }
 
@@ -447,11 +447,11 @@ b {
   fill: currentColor;
 }
 
-.menu-site-nav__link-current {
+.menu-site-nav__link_current {
   position: relative;
   color: var(--accent-color);
 }
-.menu-site-nav__link-current::after {
+.menu-site-nav__link_current::after {
   display: inline-block;
   position: absolute;
   content: "";
@@ -674,12 +674,12 @@ b {
   color: var(--accent-color);
 }
 
-.social-list__link-color-white {
+.social-list__link_color_white {
   color: var(--primary-white-color);
   background-color: var(--icon-social-background-color);
   transition-property: background-color;
 }
-.social-list__link-color-white:hover, .social-list__link-color-white:focus {
+.social-list__link_color_white:hover, .social-list__link_color_white:focus {
   background-color: var(--accent-color);
 }
 
